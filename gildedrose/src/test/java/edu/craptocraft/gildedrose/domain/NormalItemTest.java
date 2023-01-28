@@ -22,7 +22,7 @@ public class NormalItemTest {
         NormalItem normal = new NormalItem("+5 Strength Sword", 10, 20);
 
         System.out.println("toString() Normal Item test;");
-        System.out.prinln(normal.toStrig());
+        System.out.println(normal.toString());
     }
 
     @Test
@@ -52,7 +52,7 @@ public class NormalItemTest {
         normal.updateQuality();
 
         assertEquals(9, normal.getSell_in(), 0);
-        assertEquals(0, normal.setQuality(), 0);
+        assertEquals(0, normal.getQuality(), 0);
     }
 
 }
