@@ -10,7 +10,7 @@ public class SulfurasTest {
 
         Sulfuras sulfuras = new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80);
 
-        assertEquals("Sulfuras, Hand of Ragnaros", sulfuras.getName(), 0);
+        assertEquals("Sulfuras, Hand of Ragnaros", sulfuras.getName());
         assertEquals(0, sulfuras.getSell_in(), 0);
         assertEquals(80, sulfuras.getQuality(), 0);
     }
@@ -21,7 +21,7 @@ public class SulfurasTest {
         Sulfuras sulfuras = new Sulfuras("Sulfuras, Hand of Ragnaros", 0, 80);
 
         System.out.println("toString() Sulfuras test:");
-        System.out.println(sulfuras.toStrin());
+        System.out.println(sulfuras.toString());
     }
 
     @Test
